@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Personal-Portfolio-using-React/static/css/main.147a6b8d.css",
+    "main.js": "/Personal-Portfolio-using-React/static/js/main.7990fa2d.js",
+    "static/media/currency..png": "/Personal-Portfolio-using-React/static/media/currency..ec3692bc07b16e604d29.png",
+    "static/media/tic tac toe.png": "/Personal-Portfolio-using-React/static/media/tic tac toe.1bb314033ab46037b978.png",
+    "static/media/weather-app.png": "/Personal-Portfolio-using-React/static/media/weather-app.4b3acfffbb71f9377805.png",
+    "static/media/New-Resume.pdf": "/Personal-Portfolio-using-React/static/media/New-Resume.75bf6941108f169baa80.pdf",
+    "static/media/ME.jpg": "/Personal-Portfolio-using-React/static/media/ME.d6d59082475fa9d8d513.jpg",
+    "static/media/To.png": "/Personal-Portfolio-using-React/static/media/To.53e85ba602c34a6016a6.png",
+    "static/media/BMI.png": "/Personal-Portfolio-using-React/static/media/BMI.41c94c0919ddfc4c703f.png",
+    "static/media/counter.png": "/Personal-Portfolio-using-React/static/media/counter.03555f173bfbfc8335ad.png",
+    "index.html": "/Personal-Portfolio-using-React/index.html",
+    "main.147a6b8d.css.map": "/Personal-Portfolio-using-React/static/css/main.147a6b8d.css.map",
+    "main.7990fa2d.js.map": "/Personal-Portfolio-using-React/static/js/main.7990fa2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.147a6b8d.css",
+    "static/js/main.7990fa2d.js"
+  ]
+}
