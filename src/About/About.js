@@ -1,6 +1,6 @@
 import React from "react";
 import { Download } from "../Projects/Icons";
-import resume from "../assets/Projects/New-Resume.pdf";
+import resume from "../assets/Projects/Resume.pdf";
 import profile from "../assets/Projects/ME.jpg";
 import SectionHeading from "../tech/SectionHeading";
 import TechStack from "./techStack";

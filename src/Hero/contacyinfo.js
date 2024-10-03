@@ -1,5 +1,4 @@
 import LinkedIn, { GitHub, GMail, Resume, Portfolio } from "../Hero/icons";
-import ResumeLink from "../assets/Projects/New-Resume.pdf"
 const contactInfo = [
     {
         id: 1,

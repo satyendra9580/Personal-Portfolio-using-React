@@ -1,5 +1,5 @@
 
-import ReactJs, { Bootstrap, C, CPlusPlus, CSS, Git, GitHub, HTML, JS, MaterialUI, Python, Redux, TailwindCSS, TS,} from "./TechIcons";
+import ReactJs, { Bootstrap, C, CPlusPlus, CSS, Git, GitHub, HTML, JS, MaterialUI, Python, Redux, TailwindCSS, TS,Nodejs,ExpressJs,MongoDb,Mongoose,ViteJs} from "./TechIcons";
 
 
 const skills = [
@@ -54,54 +54,68 @@ const skills = [
 
         }
     },
-    
-
     {
         id: 6,
-        icon: <Bootstrap />,
-        name: "Bootstrap",
+        icon: <Redux />,
+        name: "Redux",
         style: {
-            shadow: "shadow-[#646464]",
-            cover: "from-black to-[#646464] rounded-b-md",
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
             opacity: "opacity-80"
-
         }
     },
     {
         id: 7,
-        icon: <MaterialUI />,
-        name: "MaterialUI",
+        icon: <Nodejs />,
+        name: "Node Js",
         style: {
-            shadow: "shadow-[#646464]",
-            cover: "from-black to-[#646464] rounded-b-md",
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
             opacity: "opacity-80"
-
         }
     },
     {
         id: 8,
-        icon: <Git />,
-        name: "Git",
+        icon: <ExpressJs />,
+        name: "Express Js",
         style: {
-            shadow: "shadow-[#646464]",
-            cover: "from-black to-[#646464] rounded-b-md",
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
             opacity: "opacity-80"
-
         }
     },
     {
         id: 9,
-        icon: <GitHub />,
-        name: "GitHub",
+        icon: <MongoDb />,
+        name: "Mongo Db",
         style: {
-            shadow: "shadow-[#646464]",
-            cover: "from-black to-[#646464] rounded-b-md",
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
             opacity: "opacity-80"
-
         }
     },
     {
         id: 10,
+        icon: <Mongoose />,
+        name: "Mongoose",
+        style: {
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 11,
+        icon: <ViteJs />,
+        name: "Vite JS",
+        style: {
+            shadow: "shadow-[#3D8FC6]",
+            cover: "from-black to-[#3D8FC6] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 12,
         icon: <C />,
         name: "C",
         style: {
@@ -112,7 +126,7 @@ const skills = [
         }
     },
     {
-        id: 11,
+        id: 13,
         icon: <CPlusPlus />,
         name: "CPlusPlus",
         style: {
@@ -123,7 +137,7 @@ const skills = [
         }
     },
     {
-        id: 12,
+        id: 14,
         icon: <Python />,
         name: "Python",
         style: {
@@ -133,8 +147,9 @@ const skills = [
 
         }
     },
+        
     {
-        id: 13,
+        id: 15,
         icon: <TailwindCSS />,
         name: "TailwindCSS",
         style: {
@@ -143,14 +158,49 @@ const skills = [
             opacity: "opacity-80"
         }
     },
+    
     {
-        id: 14,
-        icon: <Redux />,
-        name: "Redux",
+        id: 16,
+        icon: <MaterialUI />,
+        name: "MaterialUI",
         style: {
-            shadow: "shadow-[#3D8FC6]",
-            cover: "from-black to-[#3D8FC6] rounded-b-md",
+            shadow: "shadow-[#646464]",
+            cover: "from-black to-[#646464] rounded-b-md",
             opacity: "opacity-80"
+
+        }
+    },
+    {
+        id: 17,
+        icon: <Bootstrap />,
+        name: "Bootstrap",
+        style: {
+            shadow: "shadow-[#646464]",
+            cover: "from-black to-[#646464] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+    {
+        id: 18,
+        icon: <Git />,
+        name: "Git",
+        style: {
+            shadow: "shadow-[#646464]",
+            cover: "from-black to-[#646464] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+    {
+        id: 19,
+        icon: <GitHub />,
+        name: "GitHub",
+        style: {
+            shadow: "shadow-[#646464]",
+            cover: "from-black to-[#646464] rounded-b-md",
+            opacity: "opacity-80"
+
         }
     },
     

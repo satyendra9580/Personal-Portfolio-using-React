@@ -5,43 +5,37 @@ import { Hamburger } from '../Hero/icons';
 import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
-  
-  const [openMenu, setOpenMenu]=useState(false);
-  const toggleMenu=()=>{
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
 
-  return ( 
+  return (
     <>
-    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
-   <nav className='nav-wrapper'>
-    <div className='nav-content'>
-        <img className='logo' src='assets\Screenshot 2024-01-29 145200.png' alt='' />
-        
-        <ul>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+      <nav className='nav-wrapper'>
+        <div className='nav-content'>
+          <img className='logo' src='assets/Screenshot 2024-01-29 145200.png' alt='Logo' />
+          <ul>
             <li>
-                <a href='' className='menu-item'>Home</a>
+              <NavLink to="/" className='menu-item'>Home</NavLink>
             </li>
             <li>
-                <a href=''className='menu-item'>Skills</a>
+              <NavLink to="/skills" className='menu-item'>Skills</NavLink>
             </li>
             <li>
-                <a className='menu-item'>Projects</a>
+              <NavLink to="/projects" className='menu-item'>Projects</NavLink>
             </li>
             <li>
-                <a className='menu-item'>Contact Me</a>
+              <NavLink to="/contact" className='menu-item'>Contact Me</NavLink>
             </li>
-            </ul>
-           
-    <button className='menu-btn' onClick={toggleMenu}>
-
-      {openMenu ? "X" :<Hamburger />}
-      </button>    
-    </div>
-   </nav>
-</>
-  )
+          </ul>
+          <button className='menu-btn' onClick={toggleMenu}>
+            {openMenu ? "X" : <Hamburger />}
+          </button>
+        </div>
+      </nav>
+    </>
+  );
 }
-
-
-

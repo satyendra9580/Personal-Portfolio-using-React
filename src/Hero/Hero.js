@@ -19,16 +19,17 @@ export default function Hero() {
     <>
       <section className="hero-container">
         <div className="hero-content">
-          <h1>Hi There,</h1>
+          <span className="text-3xl">Hi There,</span>
           <h1>
-            I'm{" "}
-            <span className="text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text">
+            <span className="text-3xl">I'm{" "}</span>
+            
+            <span className="text-transparent bg-gradient-to-br from-cyan-300 to-blue-600 bg-clip-text text-4xl">
               Satyendra
             </span>
           </h1>
           <p className="text-gray-400 text-3xl font-extrabold py-4 min-w-[16rem] xs:min-w-[25rem] max-w-[26rem]">
-            <span className="block xs:inline"> I am into</span>
-            <span className="text-cyan-400 xs:pl-2">
+            <span className="block xs:inline text-xl"> I am into</span>
+            <span className="text-cyan-400 xs:pl-2 text-xl">
               <TypeAnimation
                 sequence={work}
                 speed={1}
