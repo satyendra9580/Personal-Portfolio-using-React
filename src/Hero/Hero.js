@@ -51,7 +51,7 @@ export default function Hero() {
                     href={link}
                     download={download}
                     target="_blank"
-                    rel="noferrer"
+                    rel="nonoopener noreferrer"
                   >
                     {icon}
                   </a>
@@ -63,7 +63,7 @@ export default function Hero() {
             })}
           </ul>
 
-          <div className="py-5">
+          <div className="py-5 mt-8">
             <Link
               to="About"
               smooth

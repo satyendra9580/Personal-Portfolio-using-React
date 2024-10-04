@@ -33,18 +33,14 @@ const About = () => {
           </h3>
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <p className="leading-tight">
-              An aspiring Fullstack Web Developer. I mostly works
-              on Frontend using React and Tailwind CSS.
+            Driven by a passion for technology and problem-solving, I'm Satyendra Singh, a full stack web developer currently pursuing my B.Tech in Computer Science and Engineering at the prestigious IIIT Kalyani, West Bengal.
             </p>
             <p className="leading-tight">
               {" "}
-              I also love to make beautiful Web Applications with technologies
-              like MERN Stack.
+              My journey in the world of coding has led me to explore the exciting realm of DevOps engineering, where I'm constantly pushing the boundaries of my knowledge.
             </p>
             <p className="leading-tight">
-              Coding Enthusuast, quick learner and Passionate Web Developer
-              currently pursuing B.tech in Computer Science at Indian Institute
-              of Information Technology Kalyani, (West Bengal).
+            With a keen eye for detail and a love for tackling complex challenges, I find immense satisfaction in crafting elegant solutions to Data Structures and Algorithms questions. My diverse skill set, coupled with my enthusiasm for learning, positions me at the forefront of innovation in the ever-evolving tech landscape.
             </p>
           </div>
           <div className="py-3 text-gray-50 sm:flex font-semibold">

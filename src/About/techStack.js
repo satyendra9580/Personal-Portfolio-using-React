@@ -5,13 +5,13 @@ const TechStack = [
     {
         id: 1,
         icon: <MongoDb width={27} height={30} />,
-        name: "Bootstrap",
+        name: "MongoDb",
 
     },
     {
         id: 2,
         icon: <ExpressJs width={35} height1={20} height2={15} />,
-        name: "CSS",
+        name: "Express",
 
     },
     {
@@ -23,7 +23,7 @@ const TechStack = [
     {
         id: 4,
         icon: <Nodejs width={25} height={30} />,
-        name: "TailwindCSS",
+        name: "Node",
 
     },
     {
@@ -35,7 +35,7 @@ const TechStack = [
     {
         id: 6,
         icon: <TailwindCSS width={25} height={30} />,
-        name: "HTML",
+        name: "Tailwind",
 
     },
    

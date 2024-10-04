@@ -1,4 +1,4 @@
-import LinkedIn, { GitHub, GMail, Resume, Portfolio } from "../Hero/icons";
+import LinkedIn, { GitHub, GMail, Portfolio } from "../Hero/icons";
 const contactInfo = [
     {
         id: 1,
@@ -22,7 +22,7 @@ const contactInfo = [
     {
         id: 5,
         name: "Portfolio",
-        link: "https://satyendra9580.github.io/Portfolio/",
+        link: "https://satyendra9580.github.io/Personal-Portfolio-using-React/",
         icon: <Portfolio />,
         download: true
     }
