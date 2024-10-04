@@ -22,7 +22,7 @@ const contactInfo = [
     {
         id: 5,
         name: "Portfolio",
-        link: "https://satyendra9580.github.io/Personal-Portfolio-using-React/",
+        link: "https://personal-portfolio-using-react-five.vercel.app/",
         icon: <Portfolio />,
         download: true
     }
